@@ -4,3 +4,8 @@
 Home of prototype for the Nova Scotia Government geographic metatadata catalog.
 
 
+License
+-------
+
+See [LICENSE.md](LICENSE.md)
+
