@@ -9,3 +9,10 @@ License
 
 See [LICENSE.md](LICENSE.md)
 
+How to Contribute
+-----------------
+
+See [CONTRIBUTING.md](CONTRIBUTING.md)
+
+
+
