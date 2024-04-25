@@ -1,4 +1,4 @@
-# exclude all files from the JSON/YAML validator action
+# exclude files from the JSON/YAML validator action
 
 src/WEB-INF/config-security/openid-configuration.json
 src/WEB-INF/data/config/schema_plugins/iso19139/config/associated-panel/dummy.json
