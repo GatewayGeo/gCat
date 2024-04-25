@@ -18,7 +18,7 @@ jobs:
         uses: GrantBirki/json-yaml-validate@v2.7.1
         with:
           base_dir: "./"
-          exclude_file: "./.github/exclude.txt"         
+          exclude_file: "/.github/exclude.txt"         
 
 
             
