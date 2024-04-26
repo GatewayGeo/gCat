@@ -1,0 +1,29 @@
+NSGI Theme Name,Theme Abbreviation,Theme Definition,Data ID
+Farm,FARM,Relating to cultivated plants and/or rearing of animals,010
+Biota,BIO,Flora and fauna in natural environments,020
+Forest,FOR,Forest resource information,021
+Boundaries,BND,Administrative and political boundaries,030
+Climate,CLIM,Atmospheric information processes,040
+Economy,ECON,"Economic activities, employment",050
+Elevation,ELEV,Height above sea level and derived products,060
+Environment,ENV,"Environmental resources, monitoring, protection, conservation",070
+Geologic,GEOL,"Geologic, mineral & geophysical information",080
+Health,HEALTH,"Health related information, human ecology, safety",090
+Base,BASE,Topographic mapping & remotely sensed data/imagery,100
+Inland waters,WATER,"Inland waters, hydrography, wetlands",120
+Location,LOC,Geodetic network & control monuments,130
+Oceans,OCEAN,Features and characteristics of Salt water bodies,140
+Planning,PLAN,"Land Parcel cadastre, legal descriptions",150
+Society,SOC,"Demographic, Population",160
+Culture,CUL,"Cultural,  historical and archeological information",161
+Mi?kmaw people,MIK,First people knowledge information,162
+Justice and Emergency,JENS,Human services relating to justice and emergency functions,163
+Tourism and Recreation,TOUR,"Tourism, Parks, Recreation and Trails",164
+Structure,STRU,Information relating to man-made structures,170
+Transportation,TRANS,Means of transporting people or goods,180
+Utilities,UTIL,"Energy, water, waste water and communication systems",190
+,,,
+NOTE:,,,
+"TYPOS and extra spaces, etc were fixed in this cut",,,
+We need graphics/icons built/found for displaying these themes as quick search links on home page (someday),,,
+Thinking that Theme Name and Theme Definition is all that is needed for the Thesaurus? Not sure what Data ID is refering to.,,,
