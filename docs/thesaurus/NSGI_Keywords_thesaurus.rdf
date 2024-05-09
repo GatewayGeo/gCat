@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:gml="http://www.opengis.net/gml#" xmlns:grg="http://www.isotc211.org/schemas/grg/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:void="http://rdfs.org/ns/void#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:xdt="http://www.w3.org/2005/02/xpath-datatypes" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <skos:ConceptScheme rdf:about="http://geonetwork-opensource.org/thesaurus/">
+    <dc:title>Nova Scotia Geospatial Infrastructure Keywords</dc:title>
+    <dc:description>Provincially derived data keywords based on ISO 19115 Topic Category Definitions</dc:description>
+    <dcterms:issued>2024-05-09</dcterms:issued>
+    <dcterms:modified>2024-05-09</dcterms:modified>
+    <skos:hasTopConcept rdf:resource="https://geonova.novascotia.ca/nsgi-keywords"/>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-keywords">
+    <skos:prefLabel xml:lang="en">NSGI Keywords</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://geonetwork-opensource.org/thesaurus/nsgi-keywords"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-themes/agriculture">
+    <skos:prefLabel xml:lang="en">Agriculture</skos:prefLabel>
+    <skos:altLabel/>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>-66.6 43.0</gml:lowerCorner>
+        <gml:upperCorner>-59.0 47.6</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+  </skos:Concept>
+  
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-themes/irrigation">
+    <skos:prefLabel xml:lang="en">Irrigation</skos:prefLabel>
+    <skos:altLabel/>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>-66.6 43.0</gml:lowerCorner>
+        <gml:upperCorner>-59.0 47.6</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+  </skos:Concept>
+  
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-themes/aquaculture">
+    <skos:prefLabel xml:lang="en">Aquaculture</skos:prefLabel>
+    <skos:altLabel/>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>-66.6 43.0</gml:lowerCorner>
+        <gml:upperCorner>-59.0 47.6</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-themes/farm">
+    <skos:prefLabel xml:lang="en">Farm</skos:prefLabel>
+    <skos:altLabel/>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>-66.6 43.0</gml:lowerCorner>
+        <gml:upperCorner>-59.0 47.6</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-themes/crops">
+    <skos:prefLabel xml:lang="en">Crops</skos:prefLabel>
+    <skos:altLabel/>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>-66.6 43.0</gml:lowerCorner>
+        <gml:upperCorner>-59.0 47.6</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-themes/herding">
+    <skos:prefLabel xml:lang="en">Herding</skos:prefLabel>
+    <skos:altLabel/>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>-66.6 43.0</gml:lowerCorner>
+        <gml:upperCorner>-59.0 47.6</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-themes/livestock">
+    <skos:prefLabel xml:lang="en">Livestock</skos:prefLabel>
+    <skos:altLabel/>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>-66.6 43.0</gml:lowerCorner>
+        <gml:upperCorner>-59.0 47.6</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+  </skos:Concept>   
+  
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-themes/pests">
+    <skos:prefLabel xml:lang="en">Pests</skos:prefLabel>
+    <skos:altLabel/>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>-66.6 43.0</gml:lowerCorner>
+        <gml:upperCorner>-59.0 47.6</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+  </skos:Concept> 
+  
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-themes/plantations">
+    <skos:prefLabel xml:lang="en">Plantations</skos:prefLabel>
+    <skos:altLabel/>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>-66.6 43.0</gml:lowerCorner>
+        <gml:upperCorner>-59.0 47.6</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-themes/wildlife">
+    <skos:prefLabel xml:lang="en">Wildlife</skos:prefLabel>
+    <skos:altLabel/>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>-66.6 43.0</gml:lowerCorner>
+        <gml:upperCorner>-59.0 47.6</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+  </skos:Concept>
+  
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-themes/flora">
+    <skos:prefLabel xml:lang="en">Flora</skos:prefLabel>
+    <skos:altLabel/>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>-66.6 43.0</gml:lowerCorner>
+        <gml:upperCorner>-59.0 47.6</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-themes/fauna">
+    <skos:prefLabel xml:lang="en">Fauna</skos:prefLabel>
+    <skos:altLabel/>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>-66.6 43.0</gml:lowerCorner>
+        <gml:upperCorner>-59.0 47.6</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-themes/vegetation">
+    <skos:prefLabel xml:lang="en">Vegetation</skos:prefLabel>
+    <skos:altLabel/>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>-66.6 43.0</gml:lowerCorner>
+        <gml:upperCorner>-59.0 47.6</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-themes/biological-sciences">
+    <skos:prefLabel xml:lang="en">Biological Sciences</skos:prefLabel>
+    <skos:altLabel/>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>-66.6 43.0</gml:lowerCorner>
+        <gml:upperCorner>-59.0 47.6</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-themes/ecology">
+    <skos:prefLabel xml:lang="en">Ecology</skos:prefLabel>
+    <skos:altLabel/>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>-66.6 43.0</gml:lowerCorner>
+        <gml:upperCorner>-59.0 47.6</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-themes/wilderness">
+    <skos:prefLabel xml:lang="en">Wilderness</skos:prefLabel>
+    <skos:altLabel/>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>-66.6 43.0</gml:lowerCorner>
+        <gml:upperCorner>-59.0 47.6</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://geonova.novascotia.ca/nsgi-themes/habitat">
+    <skos:prefLabel xml:lang="en">Habitat</skos:prefLabel>
+    <skos:altLabel/>
+    <gml:BoundedBy>
+      <gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+        <gml:lowerCorner>-66.6 43.0</gml:lowerCorner>
+        <gml:upperCorner>-59.0 47.6</gml:upperCorner>
+      </gml:Envelope>
+    </gml:BoundedBy>
+  </skos:Concept>
+  
+</rdf:RDF>
