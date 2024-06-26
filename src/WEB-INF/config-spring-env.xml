@@ -35,13 +35,13 @@
 
   <bean id="systemInfo" class="org.fao.geonet.SystemInfo">
     <constructor-arg value="production"/>
-    <constructor-arg value="2024-04-15T16:28:57-0300"/>
-    <constructor-arg value="4.4.4-SNAPSHOT"/>
+    <constructor-arg value="2024-06-13T09:57:40-0300"/>
+    <constructor-arg value="4.4.5-SNAPSHOT"/>
     <constructor-arg value="SNAPSHOT"/>
-    <constructor-arg value="Linux 6.5.0-1016-aws amd64"/>
-    <constructor-arg value="11.0.22"/>
+    <constructor-arg value="Linux 6.5.0-1020-aws amd64"/>
+    <constructor-arg value="11.0.23"/>
     <constructor-arg value="Ubuntu"/>
     <constructor-arg value="https://github.com/geonetwork/core-geonetwork"/>
-    <constructor-arg value="2ac448beb56dde94bb5081a329b3acf4e3633552"/>
+    <constructor-arg value="20722a89e9855386fa2b645bb6337dbc1dc2e559"/>
   </bean>
 </beans>

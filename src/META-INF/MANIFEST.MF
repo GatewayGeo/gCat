@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Created-By: Maven Archiver 3.4.0
 Build-Jdk-Spec: 11
 Implementation-Title: GeoNetwork Web module
-Implementation-Version: 4.4.4-SNAPSHOT
+Implementation-Version: 4.4.5-SNAPSHOT
 Implementation-Vendor: Open Source Geospatial Foundation
-Implementation-Build: 2ac448beb56dde94bb5081a329b3acf4e3633552
+Implementation-Build: 20722a89e9855386fa2b645bb6337dbc1dc2e559
 

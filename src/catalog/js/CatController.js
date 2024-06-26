@@ -69,6 +69,7 @@
         },
         mods: {
           global: {
+            hotkeys: true,
             humanizeDates: true,
             dateFormat: "DD-MM-YYYY",
             timezone: "Browser" // Default to browser timezone
@@ -93,11 +94,14 @@
           header: {
             enabled: true,
             languages: {
+              arm: "hy",
+              aze: "az",
               eng: "en",
               cat: "ca",
               chi: "zh",
               cze: "cs",
               dan: "da",
+              geo: "ka",
               ger: "de",
               fre: "fr",
               spa: "es",
@@ -106,9 +110,11 @@
               dut: "nl",
               kor: "ko",
               por: "pt",
+              rum: "ro",
               rus: "ru",
               slo: "sk",
               fin: "fi",
+              ukr: "uk",
               swe: "sv",
               wel: "cy"
             },
@@ -128,6 +134,7 @@
           home: {
             enabled: true,
             appUrl: "../../{{node}}/{{lang}}/catalog.search#/home",
+            showSearch: true,
             showSocialBarInFooter: true,
             showMosaic: true,
             showMaps: true,
@@ -181,6 +188,37 @@
                 }
               }
             },
+            info: [
+              {
+                type: "search",
+                title: "lastRecords",
+                active: true,
+                params: {
+                  isTemplate: "n",
+                  sortBy: "createDate",
+                  sortOrder: "desc",
+                  from: 1,
+                  to: 12
+                }
+              },
+              {
+                type: "search",
+                title: "preferredRecords",
+                params: {
+                  isTemplate: "n",
+                  sortBy: "popularity",
+                  sortOrder: "desc",
+                  from: 1,
+                  to: 12
+                }
+              },
+              {
+                type: "featuredUserSearches"
+              },
+              {
+                type: "Comments"
+              }
+            ],
             fluidLayout: true
           },
           search: {
@@ -295,7 +333,7 @@
                 // Start boosting down records more than 3 months old
                 {
                   gauss: {
-                    dateStamp: {
+                    changeDate: {
                       scale: "365d",
                       offset: "90d",
                       decay: 0.5
@@ -415,9 +453,9 @@
                 }
               },
               // GEMET configuration for non multilingual catalog
-              "th_gemet_tree.default": {
+              "th_gemet_tree.key": {
                 terms: {
-                  field: "th_gemet_tree.default",
+                  field: "th_gemet_tree.key",
                   size: 100,
                   order: { _key: "asc" },
                   include: "[^^]+^?[^^]+"
@@ -638,7 +676,7 @@
                 sortOrder: ""
               },
               {
-                sortBy: "dateStamp",
+                sortBy: "changeDate",
                 sortOrder: "desc"
               },
               {
@@ -836,7 +874,8 @@
               graticule: false,
               mousePosition: true,
               syncAllLayers: false,
-              drawVector: false
+              drawVector: false,
+              scaleLine: false
             },
             defaultTool: "layers",
             defaultToolAfterMapLoad: "layers",
@@ -853,9 +892,9 @@
               geodesicExtents: false
             },
             "map-editor": {
-              context: "",
+              context: "../../map/config-viewer.xml",
               extent: [0, 0, 0, 0],
-              layers: [{ type: "osm" }]
+              layers: []
             },
             "map-thumbnail": {
               context: "../../map/config-viewer.xml",
@@ -869,6 +908,10 @@
             appUrl: "https://secure.geonames.org/searchJSON"
           },
           recordview: {
+            // To use to redirect to another application for rendering record
+            // eg. when embedding simple search results using a web component
+            // and redirecting to the catalogue to view metadata record
+            // appUrl: "https://sextant.ifremer.fr/Donnees/Catalogue",
             isSocialbarEnabled: true,
             showStatusWatermarkFor: "",
             showStatusTopBarFor: "",
@@ -957,6 +1000,7 @@
             createPageTpl: "../../catalog/templates/editor/new-metadata-horizontal.html",
             editorIndentType: "",
             allowRemoteRecordLink: true,
+            workflowSearchRecordTypes: ["n", "e"],
             facetConfig: {
               resourceType: {
                 terms: {
@@ -1120,7 +1164,7 @@
                 sortOrder: ""
               },
               {
-                sortBy: "dateStamp",
+                sortBy: "changeDate",
                 sortOrder: "desc"
               },
               {
@@ -1296,6 +1340,7 @@
           "distributionConfig",
           "collectionTableConfig",
           "queryBaseOptions",
+          "workflowSearchRecordTypes",
           "workflowAssistApps"
         ],
         current: null,
@@ -1659,6 +1704,7 @@
       gnConfig.env.node = $scope.nodeId;
       gnConfig.env.defaultNode = defaultNode;
       gnConfig.env.baseURL = detectBaseURL(gnGlobalSettings.gnCfg.baseURLDetector);
+      gnConfig.env.url = location.origin + gnConfig.env.baseURL;
 
       $scope.signoutUrl =
         gnGlobalSettings.gnCfg.mods.authentication.signoutUrl +
@@ -1670,9 +1716,12 @@
 
       // Lang names to be displayed in language selector
       $scope.langLabels = {
+        arm: "հայերեն",
+        aze: "Azərbaycan dili",
         eng: "English",
         dut: "Nederlands",
         fre: "Français",
+        geo: "ქართული",
         ger: "Deutsch",
         kor: "한국의",
         spa: "Español",
@@ -1682,10 +1731,12 @@
         ita: "Italiano",
         fin: "Suomeksi",
         ice: "Íslenska",
+        rum: "Română",
         rus: "русский",
         chi: "中文",
         slo: "Slovenčina",
         swe: "Svenska",
+        ukr: "українська",
         dan: "Dansk",
         wel: "Cymraeg"
       };
