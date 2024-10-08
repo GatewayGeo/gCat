@@ -8,7 +8,7 @@
           <mxGeometry x="990" y="-430" width="58" height="58" as="geometry" />
         </mxCell>
         <mxCell id="UEzPUAAOIrF-is8g5C7q-175" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;gCat on AWS Cloud (Canada Region)&lt;/font&gt;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#6c8ebf;fillColor=#dae8fc;verticalAlign=top;align=left;spacingLeft=30;dashed=0;labelBackgroundColor=#ffffff;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="-720" width="890" height="828" as="geometry" />
+          <mxGeometry x="370" y="-600" width="890" height="828" as="geometry" />
         </mxCell>
         <mxCell id="aclYa26ZCGoHe3WkmrsW-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="UEzPUAAOIrF-is8g5C7q-175" source="aclYa26ZCGoHe3WkmrsW-27" target="aclYa26ZCGoHe3WkmrsW-20">
           <mxGeometry relative="1" as="geometry" />
@@ -105,7 +105,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wHTOPRWsDmOUxMGBnxZq-43" value="Email notifications (Amazon SES)" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.email_2;whiteSpace=wrap;labelPosition=center;labelBackgroundColor=default;direction=east;" vertex="1" parent="UEzPUAAOIrF-is8g5C7q-175">
+        <mxCell id="wHTOPRWsDmOUxMGBnxZq-43" value="Email notifications (Amazon SES)" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.email_2;whiteSpace=wrap;labelPosition=center;labelBackgroundColor=default;direction=east;" vertex="1" parent="UEzPUAAOIrF-is8g5C7q-175">
           <mxGeometry x="782.24" y="90" width="47.76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wHTOPRWsDmOUxMGBnxZq-78" value="Daily backups" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.backup_aws_backup_support_for_amazon_s3;labelPosition=right;labelBackgroundColor=default;" vertex="1" parent="UEzPUAAOIrF-is8g5C7q-175">
@@ -127,7 +127,7 @@
           <mxGeometry x="460" y="410" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="wHTOPRWsDmOUxMGBnxZq-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="20" y="-827" width="1820" height="987" as="geometry" />
+          <mxGeometry y="-827" width="1840" height="1127" as="geometry" />
         </mxCell>
         <mxCell id="wHTOPRWsDmOUxMGBnxZq-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UEzPUAAOIrF-is8g5C7q-182" target="wHTOPRWsDmOUxMGBnxZq-49">
           <mxGeometry relative="1" as="geometry" />
@@ -150,18 +150,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UEzPUAAOIrF-is8g5C7q-192" value="OIDC / Azure AD" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C7131F;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.addon;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="180" y="-680" width="78" height="40" as="geometry" />
+          <mxGeometry x="230" y="-367" width="78" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wHTOPRWsDmOUxMGBnxZq-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Technical Architecture Diagram&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="750" y="-800" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wHTOPRWsDmOUxMGBnxZq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="UEzPUAAOIrF-is8g5C7q-192">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="94.97727272727252" y="-709" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="wHTOPRWsDmOUxMGBnxZq-29" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;2024-10-07&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1678" y="40" width="100" height="30" as="geometry" />
+          <mxGeometry x="1640" y="250" width="100" height="30" as="geometry" />
         </mxCell>
         <UserObject label="OGC CSW" link="https://gcat.gatewaygeo.ca/geonetwork/srv/eng/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetCapabilities" linkTarget="_blank" id="wHTOPRWsDmOUxMGBnxZq-49">
           <mxCell style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.globe;labelBackgroundColor=default;" vertex="1" parent="1">
@@ -174,8 +169,16 @@
         <mxCell id="wHTOPRWsDmOUxMGBnxZq-65" value="OGC WMS/WFS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.globe;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1370" y="-243" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="aclYa26ZCGoHe3WkmrsW-1" value="&lt;div&gt;NS Gov Staff&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-740" width="50" height="50" as="geometry" />
+        <mxCell id="aclYa26ZCGoHe3WkmrsW-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aclYa26ZCGoHe3WkmrsW-1" target="aclYa26ZCGoHe3WkmrsW-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aclYa26ZCGoHe3WkmrsW-102" value="HTTPS 443" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="aclYa26ZCGoHe3WkmrsW-95">
+          <mxGeometry x="-0.0491" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aclYa26ZCGoHe3WkmrsW-1" value="&lt;div&gt;NS Gov Staff&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;whiteSpace=wrap;labelPosition=right;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="58.049999999999955" y="-600" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aclYa26ZCGoHe3WkmrsW-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aclYa26ZCGoHe3WkmrsW-46" target="wHTOPRWsDmOUxMGBnxZq-26">
           <mxGeometry relative="1" as="geometry" />
@@ -193,7 +196,7 @@
         </mxCell>
         <mxCell id="aclYa26ZCGoHe3WkmrsW-60" value="HTTPS 443" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="aclYa26ZCGoHe3WkmrsW-58">
           <mxGeometry x="-0.7421" y="-4" relative="1" as="geometry">
-            <mxPoint x="-91" y="164" as="offset" />
+            <mxPoint x="-19" y="249" as="offset" />
           </mxGeometry>
         </mxCell>
         <UserObject label="&lt;div&gt;gCat Web Home&lt;br&gt;&lt;/div&gt;" link="https://gcat.gatewaygeo.ca/geonetwork/" linkTarget="_blank" id="wHTOPRWsDmOUxMGBnxZq-26">
@@ -201,14 +204,27 @@
             <mxGeometry x="1435.95" y="-550" width="66.1" height="50" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="aclYa26ZCGoHe3WkmrsW-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wHTOPRWsDmOUxMGBnxZq-43" target="aclYa26ZCGoHe3WkmrsW-46">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <UserObject label="sitemap" link="https://gcat.gatewaygeo.ca/geonetwork/srv/api/sitemap" linkTarget="_blank" id="aclYa26ZCGoHe3WkmrsW-65">
           <mxCell style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.logs;labelPosition=center;" vertex="1" parent="1">
             <mxGeometry x="1610" y="-243" width="57" height="78" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="aclYa26ZCGoHe3WkmrsW-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aclYa26ZCGoHe3WkmrsW-94" target="UEzPUAAOIrF-is8g5C7q-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;gCat Web Home&lt;br&gt;&lt;/div&gt;" link="https://gcat.gatewaygeo.ca/geonetwork/" linkTarget="_blank" id="aclYa26ZCGoHe3WkmrsW-94">
+          <mxCell style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.data_table;labelPosition=center;" vertex="1" parent="1">
+            <mxGeometry x="50" y="-372" width="66.1" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="aclYa26ZCGoHe3WkmrsW-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wHTOPRWsDmOUxMGBnxZq-43" target="aclYa26ZCGoHe3WkmrsW-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1176" y="-650" />
+              <mxPoint x="83" y="-650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
