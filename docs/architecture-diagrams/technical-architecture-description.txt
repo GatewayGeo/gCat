@@ -28,10 +28,12 @@ gCat Technical architecture description
       - automated email notifications are sent to NS Gov staff users through 
         Amazon's SES (Simple Email Service) on SMTP port 465
 - Authentication
-    - NS Gov staff will login through Azure AD, into gCat's front-end interface, through
-      GeoNetwork's OpenID Connect plugin	  
+  - NS Gov staff will login through Azure AD, into gCat's front-end interface, through
+    GeoNetwork's OpenID Connect plugin	  
 - Privacy
-
+  - NS Gov staff username/password will be stored (encypted) by gCat
+  - metadata could contain contact information (or point to documents hosted elsewhere 
+    that contain contact information)  
 
 
 
