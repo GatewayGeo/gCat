@@ -23,10 +23,13 @@ gCat Technical architecture description
   - File/Object store
       - AWS S3 instance that hosts NSGI-related files, as well as automated backups 
        of the gCat instances
-- Authentication
+  - Email notifications
+      - automated email notifications are sent to NS Gov staff users through 
+        Amazon's SES (Simple Email Service)
+  - Authentication
       - NS Gov staff will login through Azure AD, into gCat's front-end interface, through
         GeoNetwork's OpenID Connect plugin	  
-- Privacy
+  - Privacy
 
 
 
