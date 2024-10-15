@@ -1,0 +1,35 @@
+Technical architecture description
+----------------------------------
+
+- Components
+  - catalogue/web server
+      - AWS instance that runs Tomcat on port 8080, and the GeoNetwork
+	    java app through Tomcat
+  - ES tools server
+      - AWS instance that runs related ElasticSearch apps such as Kibana
+	    (dashboards) on port 5601, and the ElasticSearch index on port 9200
+  - db server
+      - AWS instance that runs PostgreSQL (and its geospatial extension 
+	    PostGIS) on port 5432
+  - mapping server
+      - AWS instance that runs MapServer, to serve various OGC services (to 
+	    share map images, and data files through API requests)
+  - API
+      - GeoNetwork provides a public API, to access items such as the sitemap
+	    - https://gcat.gatewaygeo.ca/geonetwork/doc/api/index.html
+	  - GeoNetwork also provides a public OGC:CSW (Catalogue Service for the Web)
+	    endpoint
+		- https://gcat.gatewaygeo.ca/geonetwork/srv/eng/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetCapabilities
+  - File/Object store
+      - AWS S3 instance that hosts NSGI-related files, as well as automated backups 
+	    of the gCat instances
+- Authentication
+      - NS Gov staff will login through Azure AD, into gCat's front-end interface, through
+        GeoNetwork's OpenID Connect plugin	  
+- Privacy
+
+
+
+
+
+Last updated: 2024-10-15
