@@ -5,6 +5,7 @@ gCat Technical architecture description
   - catalogue/web server
       - AWS instance that runs Tomcat on port 8080, and the GeoNetwork
         java app through Tomcat
+        - https://gcat.gatewaygeo.ca/geonetwork/
   - ES tools server
       - AWS instance that runs related ElasticSearch apps such as Kibana
        (dashboards) on port 5601, and the ElasticSearch index on port 9200
@@ -30,7 +31,6 @@ gCat Technical architecture description
     - NS Gov staff will login through Azure AD, into gCat's front-end interface, through
       GeoNetwork's OpenID Connect plugin	  
 - Privacy
-
 
 
 
