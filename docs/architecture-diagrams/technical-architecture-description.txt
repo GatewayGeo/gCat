@@ -33,7 +33,7 @@ gCat Technical architecture description
 - Privacy
   - NS Gov staff username/password will be stored (encypted) by gCat
   - metadata could contain contact information (or point to documents hosted elsewhere 
-    that contain contact information)  
+    that contain could contact information)  
 
 
 
