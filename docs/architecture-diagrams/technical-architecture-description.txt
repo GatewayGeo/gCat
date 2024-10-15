@@ -13,7 +13,7 @@ gCat Technical architecture description
         PostGIS) on port 5432
   - mapping server
       - AWS instance that runs MapServer, to serve various OGC services (to 
-        share map images, and data files through API requests)
+        share map images, and spatial files through API requests)
   - API
       - GeoNetwork provides a public API, to access items such as the sitemap
         - https://gcat.gatewaygeo.ca/geonetwork/doc/api/index.html
