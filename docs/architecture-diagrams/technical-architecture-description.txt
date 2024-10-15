@@ -1,5 +1,5 @@
-Technical architecture description
-----------------------------------
+gCat Technical architecture description
+---------------------------------------
 
 - Components
   - catalogue/web server
