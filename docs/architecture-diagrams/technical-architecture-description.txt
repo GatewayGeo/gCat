@@ -31,7 +31,7 @@ gCat Technical architecture description
   - NS Gov staff will login through Azure AD, into gCat's front-end interface, through
     GeoNetwork's OpenID Connect plugin	  
 - Privacy
-  - NS Gov staff username/password will be stored (encypted) in the gCat database
+  - NS Gov staff username/password will be stored (encrypted) in the gCat database
   - metadata could contain contact information (or point to documents hosted elsewhere 
     that could contain contact information)  
 
